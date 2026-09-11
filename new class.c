@@ -1,5 +1,6 @@
 /*WRITE A CODE TO FIND THE GRATE THROUGH THE MARKS*/
 
+/*
 #include <stdio.h>
 int main(){
     float score;
@@ -18,3 +19,4 @@ int main(){
     }
     return 0;
 }
+    */
