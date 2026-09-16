@@ -62,7 +62,7 @@
     */
 // CHECKING VOWEL
 
-/*
+
     #include <stdio.h>
 
     int main() {
@@ -97,4 +97,3 @@
 
 }
     
-*/
