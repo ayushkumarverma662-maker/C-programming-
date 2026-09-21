@@ -1,3 +1,5 @@
+ // TRAFFIC LIGHT FOR SIGNALS
+ 
  #include <stdio.h>
 
     int main() {

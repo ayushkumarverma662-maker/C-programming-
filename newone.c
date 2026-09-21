@@ -28,6 +28,8 @@
 
 }
     */
+
+    //CHECKING VOWEL
 /*
     #include <stdio.h>
 
@@ -60,7 +62,6 @@
 
 }
     */
-// CHECKING VOWEL
 
 
     #include <stdio.h>

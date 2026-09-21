@@ -40,7 +40,7 @@ int main() {
     }
         */
 
-
+//ELOGIBLE FOR VOTE OR NOT
 
 /*
         #include <stdio.h>
