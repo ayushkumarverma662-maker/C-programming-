@@ -110,10 +110,96 @@ int main () {
 
 //FOR PRINTING THE PATTERN
 
-
+/*
 #include<stdio.h>
 int main(){
-    for (int i = 1; i <= 30; i++)
+    for (int i = 1; i <= 50; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+*/
+
+    
+
+    // Writing a program using While loop to sun of the value 1 to n
+/*
+    #include<stdio.h>
+    
+    int main(){
+    int i = 1, sum = 0;
+
+        printf("Enter a number");
+        scanf("%d",&i);
+        {}
+         while (i <= 10){
+            sum = sum + i;
+            i++;
+         }
+         printf("Sum =%d",sum);
+
+         return 0;
+
+    }
+*/
+/*
+    #include <stdio.h>
+
+int main() {
+    int n, i = 1, sum = 0;
+
+    printf("Enter a positive integer: ");
+    scanf("%d", &n);
+
+    while (i <= n) {
+        sum = sum + i;
+        i++;
+    }
+
+    printf("Sum %d = %d\n", n, sum);
+
+    return 0;
+}*/
+
+// Reverse of Any number
+
+/*
+#include <stdio.h>
+
+int main() {
+    int n, reversed = 0, remainder;
+
+    printf("Enter an integer: ");
+    scanf("%d", &n);
+
+    int original = n; // keep original for display
+
+    while (n != 0) {
+        remainder = n % 10;         // extract last digit
+        reversed = reversed * 10 + remainder;  // append it to reversed
+        n = n / 10;                 // remove last digit
+    }
+
+    printf("Reversed number of %d = %d\n", original, reversed);
+
+    return 0;
+}
+    */
+/*
+    #include<stdio.h>
+int main(){
+    int i,j,space;
+    for(i=1;i<=3;i++){
+        for (space = 1; space <= 4 -i +1)
+    }
+
+
+    for (int i = 1; i <= 50; i++)
     {
         for (int j = 1; j <= i; j++)
         {
@@ -124,4 +210,108 @@ int main(){
     return 0;
 
 
+} */
+
+
+// LIKE PYRAMIOD SHAPE WITH SPACE
+
+/*
+#include<stdio.h>
+int main(){
+    int n = 5;
+    for (int i = 1; i <= n; i++)
+    {
+        // print spaces first
+        for (int j = 1; j <= n - i; j++)
+        {
+            printf(" ");
+        }
+        // print stars
+        for (int k = 1; k <= i; k++)
+        {
+            printf("* ");
+        }
+        printf("\n");
+    }
+    return 0;
 } 
+    */
+/*
+#include<stdio.h>
+int main(){
+    for (int i = 1; i <= 5; i++)
+    {
+        // print spaces first
+        for (int j = 1; j <= 50 - i; j++)
+        {
+            printf(" ");
+        }
+        // then print stars
+        for (int k = 1; k <= i; k++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}*/
+
+// WRITE A PROGRAM TO REVERE A NO USING WHILE LOOP
+/*
+#include <stdio.h>
+
+int main() {
+    int num, reversedNum = 0, remainder;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    int original = num; // keep original for display
+
+    while (num != 0) {
+        remainder = num % 10;      // get the last digit
+        reversedNum = reversedNum * 10 + remainder; // append it to reversed number
+        num /= 10;                 // remove the last digit
+    }
+
+    printf("Reversed number: %d\n", reversedNum);
+
+    return 0;
+}
+*/
+
+
+// PRINTING NUMBER IN PATTERN
+
+/*
+#include<stdio.h>
+int main(){
+    for (int i = 1; i <= 20; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+    return 0;
+}*/
+
+
+  // WAP TO PRINT MULTIPLICATION TABLE OF n
+/*
+    #include <stdio.h>
+    int main() {
+        int n, i;
+
+        printf("Enter the Number");
+        scanf("%d",&n);
+        
+    for (i = 1; i <= 10; i++) {
+        printf("%d x %d = %d\n", n, i, n * i);
+    }
+
+    return 0;
+}*/
+
+
