@@ -1,4 +1,4 @@
-// BASIC PROGRAM STRUCTURE
+2// BASIC PROGRAM STRUCTURE
 
 #include <stdio.h>
 

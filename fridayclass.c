@@ -295,8 +295,8 @@ int main(){
         printf("\n");
     }
     return 0;
-}*/
-
+}
+*/
 
   // WAP TO PRINT MULTIPLICATION TABLE OF n
 /*
@@ -313,5 +313,94 @@ int main(){
 
     return 0;
 }*/
+
+
+// WAP to to print N and then the Square of N
+
+/*
+#include <stdio.h>
+    int main() {
+        int  i;
+        
+    for (i = 1; i <= 10; i++) {
+        printf("%d %d\n",i,i*i);
+    }
+
+    return 0;
+}
+    */
+
+// WAP to make a calculator using Switch case;
+/*
+#include <stdio.h>
+
+int main() {
+    char op;
+    float a, b;
+
+    printf("Enter operator (+ - * /): ");
+    scanf(" %c", &op);
+    printf("Enter two numbers: ");
+    scanf("%f %f", &a, &b);
+
+    switch (op) {
+        case '+': printf("%.2f\n", a + b); break;
+        case '-': printf("%.2f\n", a - b); break;
+        case '*': printf("%.2f\n", a * b); break;
+        case '/':
+            if (b != 0) printf("%.2f\n", a / b);
+            else printf("Cannot divide by zero\n");
+            break;
+        default: printf("Invalid operator\n");
+    }
+    return 0;
+}*/
+/*
+#include <stdio.h>
+
+int main() {
+    int rows, num = 1;
+    printf("Enter number of rows: ");
+    scanf("%d", &rows);
+
+    for (int i = 1; i <= rows; i++) {
+        for (int j = 1; j <= i; j++) {
+            printf("%d", num);
+            num++;
+        }
+        printf("\n");
+    }
+    return 0;
+}
+*/
+/*
+#include <stdio.h>
+
+int main() 
+{
+    int i, j, num = 1;
+
+    for (int i = 1; i <= 4; i++) {
+        for (int j = 1; j <= i; j++) {
+            printf("%d", num);
+            num++;
+        }
+        printf("\n");
+    }
+    return 0;
+}*/
+
+#include <stdio.h>
+
+int main()
+{
+    int a, b, num;
+    printf("enter number: ");
+    scanf("%d",&a);
+    b = a + 5;
+    
+    printf("ayush:%d",b);
+    return 0 ;
+}
 
 
