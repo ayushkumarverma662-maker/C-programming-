@@ -389,7 +389,7 @@ int main()
     }
     return 0;
 }*/
-
+/*
 #include <stdio.h>
 
 int main()
@@ -402,5 +402,36 @@ int main()
     printf("ayush:%d",b);
     return 0 ;
 }
+*/
 
+/*
+#include <stdio.h>
 
+// Function to calculate the sum of marks in three subjects
+int calculateSum(int physics, int maths, int english) {
+    return physics + maths + english;
+}
+
+int main() {
+    int physics, maths, english, total;
+
+    for (int i = 1; i <= 3; i++) {
+        printf("\nEnter marks for Student %d\n", i);
+
+        printf("Physics: ");
+        scanf("%d", &physics);
+
+        printf("Maths: ");
+        scanf("%d", &maths);
+
+        printf("English: ");
+        scanf("%d", &english);
+
+        total = calculateSum(physics, maths, english);
+
+        printf("Total marks of Student %d = %d\n", i, total);
+    }
+
+    return 0;
+}
+*/
